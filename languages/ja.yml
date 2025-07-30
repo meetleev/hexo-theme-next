@@ -43,6 +43,8 @@ footer:
   powered: "Powered by %s"
   total_views: 閲覧合計数
   total_visitors: 合計閲覧者数
+  privacy_policy: プライバシーポリシー
+  contact_us: お問い合わせ
 widget:
   github: Follow me on GitHub
   chat: Chat

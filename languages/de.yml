@@ -43,6 +43,8 @@ footer:
   powered: "Erstellt mit  %s"
   total_views: Alle Aufrufe
   total_visitors: Alle Besucher
+  privacy_policy: Datenschutzrichtlinie
+  contact_us: Kontaktiere uns
 widget:
   github: Follow me on GitHub
   chat: Chat

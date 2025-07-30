@@ -43,6 +43,8 @@ footer:
   powered: "由 %s 強力驅動"
   total_views: 總瀏覽次數
   total_visitors: 訪客總數
+  privacy_policy: 隱私政策
+  contact_us: 聯繫我們
 widget:
   github: Follow me on GitHub
   chat: Chat

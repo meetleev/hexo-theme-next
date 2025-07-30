@@ -47,7 +47,8 @@ footer:
   powered: "Powered by %s"
   total_views: Total Views
   total_visitors: Total Visitors
-
+  privacy_policy: Privacy Policy
+  contact_us: Contact US
 widget:
   github: Follow me on GitHub
   chat: Chat

@@ -43,6 +43,8 @@ footer:
   powered: "由 %s 强力驱动"
   total_views: 总访问量
   total_visitors: 总访客量
+  privacy_policy: 隐私政策
+  contact_us: 联系我们
 widget:
   github: 在 GitHub 上关注我
   chat: 聊天

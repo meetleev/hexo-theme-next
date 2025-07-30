@@ -43,6 +43,8 @@ footer:
   powered: "Powered by %s"
   total_views: Total Views
   total_visitors: Total Visitors
+  privacy_policy: 개인정보 보호정책
+  contact_us: 문의하기
 widget:
   github: Follow me on GitHub
   chat: Chat
