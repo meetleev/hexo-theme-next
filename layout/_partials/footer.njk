@@ -79,14 +79,15 @@
 {%- if theme.footer.privacy_policy or theme.footer.contact_us %}
   <div class="powered-by">
     {%- if theme.footer.privacy_policy and theme.footer.contact_us %} 
-        {{- __(next_url(config.url + '/privacy.html', footer.privacy_policy) + ' | ' + next_url(config.url + '/contact_us.html', footer.contact_us))}}
-    {%- endif %}
-    {%- if theme.footer.privacy_policy %} 
-        {{- __(next_url(config.url + '/privacy.html', footer.privacy_policy))}}
-    {%- endif %}
+        {{- __(next_url(config.url + '/privacy.html', __('footer.privacy_policy')) + ' | ' + next_url(config.url + '/contact_us.html', __('footer.contact_us')))}}
+    {%- else %}
+      {%- if theme.footer.privacy_policy %} 
+          {{- __(next_url(config.url + '/privacy.html', __('footer.privacy_policy')))}}
+      {%- endif %}
 
-    {%- if theme.footer.contact_us %} 
-        {{- __(next_url(config.url + '/contact_us.html', footer.contact_us))}}
+      {%- if theme.footer.contact_us %} 
+          {{- __(next_url(config.url + '/contact_us.html', __('footer.contact_us')))}}
+      {%- endif %}
     {%- endif %}
      </div>
 {%- endif %}
